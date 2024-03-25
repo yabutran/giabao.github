@@ -1,0 +1,185 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    text-rendering: optimizeSpeed;
+}
+
+.has_transition {
+    @include cubic-transition($delay: 0, $duration: 250ms, $property: (all));
+}
+
+.white-popup-myvne {
+    text-align: left;
+    font-family: 'arial', sans-serif;
+}
+
+    .white-popup-myvne a:focus {
+        outline: 1 !important;
+    }
+
+    .white-popup-myvne a {
+        text-decoration: none;
+        outline: 1;
+    }
+
+    .white-popup-myvne img {
+        border: 0;
+        font-size: 0;
+        line-height: 0;
+        max-width: 100%;
+    }
+
+    .white-popup-myvne ul, .white-popup-myvne li {
+        list-style-type: none;
+    }
+
+    .white-popup-myvne table {
+        border-collapse: collapse;
+    }
+
+    .white-popup-myvne input, .white-popup-myvne textarea {
+        border: none;
+        background: none;
+    }
+
+        .white-popup-myvne input::-webkit-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne input::-moz-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne input::-ms-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne input::-o-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne textarea::-webkit-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne textarea::-moz-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne textarea::-ms-input-placeholder {
+            color: #828282;
+        }
+
+        .white-popup-myvne textarea::-o-input-placeholder {
+            color: #828282;
+        }
+
+.clearfix {
+    clear: both;
+}
+
+    .clearfix::before, .clearfix::after {
+        display: table;
+        content: "";
+    }
+
+.white-popup-myvne .left {
+    float: left;
+}
+
+.white-popup-myvne .right {
+    float: right;
+}
+
+.white-popup-myvne .width_common {
+    width: 100%;
+    float: left;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+
+.white-popup-myvne .icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.no_wrap {
+    white-space: nowrap;
+}
+
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb25 {
+    margin-bottom: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt25 {
+    margin-top: 25px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.ic-logout-v2 {
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(images/graphics/logout_icon.svg) no-repeat -42px -3px;
+}

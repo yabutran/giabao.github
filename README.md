@@ -9,9 +9,9 @@ Một đoạn mô tả ngắn gọn về dự án của bạn. Giới thiệu v�
 
 ## Tính Năng
 
-- Tính năng 1: 
-- Tính năng 2: 
-- Tính năng 3: 
+- Tính năng 1: test
+- Tính năng 2: test
+- Tính năng 3: test
 
 ## Bắt Đầu Nhanh
 
